@@ -8,8 +8,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/java/CTHMS/features",
         glue = "CTHMS.steps",
         tags = "@Progression",
-        dryRun = true
+        dryRun = false
 )
-
 public class RunCTHMSProgressionTest extends AbstractTestNGCucumberTests {
 }
